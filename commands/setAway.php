@@ -1,7 +1,6 @@
 <?php
-error_reporting(E_ALL);
-require_once('nest.class.php');
-require_once('credentials.php');
+require_once('../nest.class.php');
+require_once('../credentials.php');
 
 
 define('USERNAME', $username);
@@ -15,7 +14,7 @@ $setAway = (int)isset($_POST['setAway']);
 // Perform set away or home
 $action = $setAway ? $nest->setAway(TRUE): $nest->setAway(FALSE);
 
-header('Location: admin.php');
+header('Location: ../admin.php');
 exit;
 
 ?>
