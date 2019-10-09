@@ -23,7 +23,12 @@ Before you can use this web interface you will need to create a `credentials.php
 ?>
 ```
 
+**Note: this does not work with 2FA. You will need to disable if you want to utilize this API.**
 
 ![homepage](images/homepage.png)
 
 ![usage](images/usage.png)
+
+![schedule](images/schedule.png)
+
+![admin](images/admin.png)
