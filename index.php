@@ -29,7 +29,7 @@ $displayClass = $infos->target->mode == "cool" ? "class='text-primary'" : "class
 		<th> Outside Temp </th>
 			<tr>
 				<td><?php echo($infos->target->mode)?></td>
-				<td><?php echo(round($infos->current_state->humidity))?></td>
+				<td><?php echo(round($infos->current_state->humidity))?>%</td>
 				<td><?php echo(round($infos->target->temperature))?></td>
 				<td><?php echo(round($nest->getWeather($zipcode)->outside_temperature))?></td>
 			</tr>
