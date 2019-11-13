@@ -1,6 +1,6 @@
 # Nest Interface
 
-A _**very simple**_ web interface for your Nest Thermostat. 
+A web interface for your Nest Thermostat. 
 
 Powered by [nest-api](https://github.com/gboudreau/nest-api)
 
