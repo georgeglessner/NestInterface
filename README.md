@@ -19,7 +19,7 @@ Before you can use this web interface you will need to create a `credentials.php
 <?php
     $username = 'NEST USERNAME';
     $password = 'NEST PASSWORD';
-    $zipcode = 'YOUR ZIPCODE'
+    $zipcode = 'YOUR ZIPCODE';
 ?>
 ```
 
